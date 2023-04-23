@@ -1,0 +1,16 @@
+2023-04-22T06:15:43+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":false,"business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":false}
+ ajax: no
+2023-04-22T06:15:46+00:00 ERROR Tt4b_Mapi_Class::mapi_post: Response: 
+
+http_request_failed: cURL error 28: Failed to connect to business-api.tiktok.com port 443: Timed out
+
+2023-04-22T06:15:46+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2023-04-22T06:15:48+00:00 ERROR Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+http_request_failed: cURL error 28: Failed to connect to business-api.tiktok.com port 443: Timed out
+
